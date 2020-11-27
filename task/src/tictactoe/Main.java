@@ -5,10 +5,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String inputCellsElements = "";
-        int count = 0;
+        String inputCellsElements;
 
-        //System.out.println("Enter cells: >");
+        //System.out.println("Enter cells: >"); // not required for now.
         inputCellsElements  = scanner.nextLine();
 
         if (inputCellsElements.contains("0") || inputCellsElements.contains("X") || inputCellsElements.contains("_") ) {
